@@ -43,4 +43,4 @@
 - Unity Technologies for creating such a powerful game engine.
 - Leopotam for the ECS Lite framework.
 
-Happy gaming! 🎉📈
+Happy gaming!
