@@ -37,7 +37,7 @@
 ### Bootstrap
 
 - **Bootstrap**: Main entry point for initializing game components, including providers and systems. Handles UI and gameplay events.
-- 
+
 ## Acknowledgments
 
 - Unity Technologies for creating such a powerful game engine.
