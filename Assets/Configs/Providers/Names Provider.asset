@@ -1,0 +1,45 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ae22cda730c4b89b11cfa7e95c044dd, type: 3}
+  m_Name: Names Provider
+  m_EditorClassIdentifier: 
+  namesList:
+  - key: Business1
+    value: Business 1
+  - key: Business2
+    value: Business #2
+  - key: Business3
+    value: B 3
+  - key: Business4
+    value: Bisiness 04
+  - key: Business5
+    value: Bisiness 5
+  - key: B1Up1
+    value: Upgrade #1 for Busness #1
+  - key: B1Up2
+    value: Upgrade #2 for Busness #1
+  - key: B2Up1
+    value: Upgrade #1 for Busness #2
+  - key: B2Up2
+    value: Upgrade #2 for Busness #2
+  - key: B3Up1
+    value: Up #1 for  B #3
+  - key: B3Up2
+    value: Up #2 for  B #3
+  - key: B4Up1
+    value: '#1 for #4'
+  - key: B4Up2
+    value: '#2 for #4'
+  - key: B5Up1
+    value: '#1 for #5'
+  - key: B5Up2
+    value: '#2 for #5'

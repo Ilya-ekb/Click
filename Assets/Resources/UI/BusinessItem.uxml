@@ -1,0 +1,52 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/BusinessItem.uss?fileID=7433441132597879392&amp;guid=e7d6d5fb6a42e4c35a5f8dc95fab684c&amp;type=3#BusinessItem" />
+    <ui:VisualElement name="root" style="flex-grow: 0; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); padding-left: 50px; padding-right: 50px; padding-top: 0; padding-bottom: 7px; justify-content: space-around; margin-bottom: 20px; background-color: rgba(94, 179, 200, 0.63);">
+        <ui:VisualElement name="name">
+            <ui:Label text="Name" name="value" class="balance-text text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" style="flex-grow: 0; justify-content: space-between; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0;">
+            <ui:ProgressBar enabled="true" />
+            <ui:VisualElement name="business-control" style="flex-grow: 1; flex-direction: row; align-items: center; justify-content: space-between;">
+                <ui:VisualElement name="lvl" class="info">
+                    <ui:Label text="LVL" name="title" class="text1" />
+                    <ui:Label text="0" name="value" class="text1" />
+                </ui:VisualElement>
+                <ui:VisualElement name="income" class="info">
+                    <ui:Label text="Income" name="title" class="text1" />
+                    <ui:Label text="0$" name="value" class="text1" />
+                </ui:VisualElement>
+                <ui:VisualElement name="lvlup-btn" class="button" style="background-color: rgb(104, 159, 107); width: 40%;">
+                    <ui:Label text="Income" name="title" class="text1" />
+                    <ui:VisualElement name="price" style="flex-direction: row; align-self: center; justify-content: center; align-items: center;">
+                        <ui:Label text="Price:" name="title" class="text1" />
+                        <ui:Label text="0$" name="value" class="text1" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="upgrade-control" style="flex-grow: 0; flex-direction: row; justify-content: space-between;">
+                <ui:VisualElement name="upgrade-btn" class="button" style="background-color: rgb(200, 178, 125); width: 48%;">
+                    <ui:Label text="Label" name="title" class="text1" />
+                    <ui:VisualElement name="income-info" style="flex-direction: row; align-self: center; justify-content: center; align-items: center;">
+                        <ui:Label text="Income:" name="title" class="text1" />
+                        <ui:Label text="0$" name="value" class="text1" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="price" style="flex-direction: row; align-self: center; justify-content: center; align-items: center;">
+                        <ui:Label text="Price:" name="title" class="text1" />
+                        <ui:Label text="0$" name="value" class="text1" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:VisualElement name="upgrade-btn" class="button" style="background-color: rgb(200, 178, 125); width: 48%;">
+                    <ui:Label text="Label" name="title" class="text1" />
+                    <ui:VisualElement name="income-info" style="flex-direction: row; align-self: center; justify-content: center; align-items: center;">
+                        <ui:Label text="Income:" name="title" class="text1" />
+                        <ui:Label text="0$" name="value" class="text1" />
+                    </ui:VisualElement>
+                    <ui:VisualElement name="price" style="flex-direction: row; align-self: center; justify-content: center; align-items: center;">
+                        <ui:Label text="Price:" name="title" class="text1" />
+                        <ui:Label text="0$" name="value" class="text1" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

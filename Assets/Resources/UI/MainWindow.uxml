@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/UI/Main.uss?fileID=7433441132597879392&amp;guid=7e7ceeafc09614262813717b04e66115&amp;type=3#Main" />
+    <ui:VisualElement name="root" style="flex-grow: 1; border-top-width: 2px; border-right-width: 2px; border-bottom-width: 2px; border-left-width: 2px; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0);">
+        <ui:VisualElement name="balance" class="balance">
+            <ui:Label text="Balance:" name="title" class="balance-text" />
+            <ui:Label text="100$" name="value" class="balance-text" />
+        </ui:VisualElement>
+        <ui:VisualElement name="content" style="flex-grow: 1; padding-top: 5px; padding-right: 5px; padding-bottom: 5px; padding-left: 5px;">
+            <ui:ScrollView horizontal-scroller-visibility="Hidden" vertical-scroller-visibility="Auto" name="businesses" style="flex-grow: 1;" />
+        </ui:VisualElement>
+        <ui:Button text="EXIT&#10;" name="exit" style="position: absolute; top: 30px; left: 30px; width: 100px; height: 100px; -unity-font-style: normal; font-size: 20px;" />
+        <ui:Button text="RESTART&#10;" name="restart" style="position: absolute; width: 100px; height: 100px; -unity-font-style: normal; font-size: 20px; top: 30px; right: 30px;" />
+    </ui:VisualElement>
+</ui:UXML>
